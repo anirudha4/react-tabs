@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,100&family=Outfit:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  background-color: #fcfcfc;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  min-width: 400px;
+  border-bottom: 2px solid #f4f4f4;
+  margin: 0 auto 0;
+}
+.tabs .tab {
+  width: 100%;
+  padding: 1em;
+  text-align: center;
+  cursor: pointer;
+}
+.tabs .tab.active {
+  background-color: rgb(240, 247, 255);
+  color: dodgerblue;
+  border-bottom: 2px solid dodgerblue;
+}
